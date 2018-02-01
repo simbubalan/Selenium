@@ -4,7 +4,7 @@ public class OpenPage extends BaseClass {
 
 	public static void main(String[] args)
 	{
-		Firefox();
+		BrowserSelect();
 		driver.get("https://www.flipkart.com");
 		System.out.println(driver.getTitle());
 		String S = driver.getTitle();
