@@ -8,6 +8,7 @@ public class assertions extends browser{
 	{
 		Firefox();
 		driver.manage().deleteAllCookies();
+		driver.manage().window().fullscreen();
 		driver.navigate().to("https://www.progressive.com");
 		String WebpageName = driver.getTitle();
 	//	Assert.assertFalse(WebpageName.equalsIgnoreCase("Progressive: Ranked One Of The Best Insurance Companies"), "Page title doesn't match");
