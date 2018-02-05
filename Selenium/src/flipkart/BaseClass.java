@@ -45,7 +45,7 @@ public class BaseClass
 	@SuppressWarnings("resource")
 	public static void BrowserSelect()
 	{
-		System.out.println("Choose Browser - PRESS 1 for IE, PRESS 2 for FireFox, PRESS Enter for Chrome");
+		System.out.println("Choose Browser:"+"\n"); System.out.println("Enter 1 for FireFox, 2 for IE, Enter for Chrome"+"\n");
 		Scanner sc = new Scanner(System.in);
 		String input = sc.nextLine();
 		switch (input)
