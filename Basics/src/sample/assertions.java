@@ -19,5 +19,6 @@ public class assertions extends browser{
 		Assert.assertEquals(1,1);
 		Assert.assertEquals(1, 1, "Not Same");
 		Assert.assertFalse(1>10, "Happy meal");
+		System.out.println();
 		}
 }

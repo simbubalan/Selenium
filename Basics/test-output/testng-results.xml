@@ -1,61 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-02-05T07:08:06Z" name="Suite" finished-at="2018-02-05T07:08:06Z" duration-ms="51">
+  <suite started-at="2018-02-05T07:43:34Z" name="Default suite" finished-at="2018-02-05T07:43:34Z" duration-ms="54">
     <groups>
     </groups>
-    <test started-at="2018-02-05T07:08:06Z" name="Test" finished-at="2018-02-05T07:08:06Z" duration-ms="51">
-      <class name="sample.Testng">
-        <test-method is-config="true" signature="testCase6()[pri:0, instance:sample.Testng@2de23121]" started-at="2018-02-05T01:08:06Z" name="testCase6" finished-at="2018-02-05T01:08:06Z" duration-ms="17" status="PASS">
+    <test started-at="2018-02-05T07:43:34Z" name="Default test" finished-at="2018-02-05T07:43:34Z" duration-ms="54">
+      <class name="testnextgen.TestngAnnotation">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testnextgen.TestngAnnotation@2de23121]" started-at="2018-02-05T01:43:34Z" name="beforeSuite" finished-at="2018-02-05T01:43:34Z" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase6 -->
-        <test-method is-config="true" signature="testCase2()[pri:0, instance:sample.Testng@2de23121]" started-at="2018-02-05T01:08:06Z" name="testCase2" finished-at="2018-02-05T01:08:06Z" duration-ms="0" status="PASS">
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testnextgen.TestngAnnotation@2de23121]" started-at="2018-02-05T01:43:34Z" name="beforeTest" finished-at="2018-02-05T01:43:34Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase2 -->
-        <test-method is-config="true" signature="testCase4()[pri:0, instance:sample.Testng@2de23121]" started-at="2018-02-05T01:08:06Z" name="testCase4" finished-at="2018-02-05T01:08:06Z" duration-ms="0" status="PASS">
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testnextgen.TestngAnnotation@2de23121]" started-at="2018-02-05T01:43:34Z" name="beforeClass" finished-at="2018-02-05T01:43:34Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase4 -->
-        <test-method is-config="true" signature="testCase8()[pri:0, instance:sample.Testng@2de23121]" started-at="2018-02-05T01:08:06Z" name="testCase8" finished-at="2018-02-05T01:08:06Z" duration-ms="2" status="PASS">
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testnextgen.TestngAnnotation@2de23121]" started-at="2018-02-05T01:43:34Z" name="beforeMethod" finished-at="2018-02-05T01:43:34Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase8 -->
-        <test-method signature="testCase1()[pri:0, instance:sample.Testng@2de23121]" started-at="2018-02-05T01:08:06Z" name="testCase1" finished-at="2018-02-05T01:08:06Z" duration-ms="10" status="PASS">
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCase1()[pri:0, instance:testnextgen.TestngAnnotation@2de23121]" started-at="2018-02-05T01:43:34Z" name="testCase1" finished-at="2018-02-05T01:43:34Z" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase1 -->
-        <test-method is-config="true" signature="testCase9()[pri:0, instance:sample.Testng@2de23121]" started-at="2018-02-05T01:08:06Z" name="testCase9" finished-at="2018-02-05T01:08:06Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testnextgen.TestngAnnotation@2de23121]" started-at="2018-02-05T01:43:34Z" name="afterMethod" finished-at="2018-02-05T01:43:34Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase9 -->
-        <test-method is-config="true" signature="testCase8()[pri:0, instance:sample.Testng@2de23121]" started-at="2018-02-05T01:08:06Z" name="testCase8" finished-at="2018-02-05T01:08:06Z" duration-ms="2" status="PASS">
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testnextgen.TestngAnnotation@2de23121]" started-at="2018-02-05T01:43:34Z" name="afterClass" finished-at="2018-02-05T01:43:34Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase8 -->
-        <test-method signature="testCase10()[pri:0, instance:sample.Testng@2de23121]" started-at="2018-02-05T01:08:06Z" name="testCase10" finished-at="2018-02-05T01:08:06Z" duration-ms="3" status="PASS">
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testnextgen.TestngAnnotation@2de23121]" started-at="2018-02-05T01:43:34Z" name="afterTest" finished-at="2018-02-05T01:43:34Z" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase10 -->
-        <test-method is-config="true" signature="testCase9()[pri:0, instance:sample.Testng@2de23121]" started-at="2018-02-05T01:08:06Z" name="testCase9" finished-at="2018-02-05T01:08:06Z" duration-ms="2" status="PASS">
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testnextgen.TestngAnnotation@2de23121]" started-at="2018-02-05T01:43:34Z" name="afterSuite" finished-at="2018-02-05T01:43:34Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase9 -->
-        <test-method is-config="true" signature="testCase5()[pri:0, instance:sample.Testng@2de23121]" started-at="2018-02-05T01:08:06Z" name="testCase5" finished-at="2018-02-05T01:08:06Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase5 -->
-        <test-method is-config="true" signature="testCase3()[pri:0, instance:sample.Testng@2de23121]" started-at="2018-02-05T01:08:06Z" name="testCase3" finished-at="2018-02-05T01:08:06Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase3 -->
-        <test-method is-config="true" signature="testCase7()[pri:0, instance:sample.Testng@2de23121]" started-at="2018-02-05T01:08:06Z" name="testCase7" finished-at="2018-02-05T01:08:06Z" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase7 -->
-      </class> <!-- sample.Testng -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testnextgen.TestngAnnotation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
