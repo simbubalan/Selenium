@@ -4,7 +4,9 @@ public class Lists {
 
 	public static void main(String[] args) 
 	{
-		//HASHSET------------------------------------------------------------------------------------------------
+		//HASHSET----------------  DOES NOT MAINTAIN THE ORDER THE ELEMENTS ARE ADDED ------------------------------
+		//LINKEDHASHSET----------------  MAINTAINS THE ORDER THE ELEMENTS ARE ADDED ------------------------------
+		//TREESET----------------  MAINTAINS THE NATURAL SORTING ORDER FOR THE ELEMENTS (ex ASC to DSC, 1,2,3)--------------
 		HashSet<String> HS = new HashSet<String>(); // No duplicates allowed
 		HS.add("ABI");HS.add("CHRISTY");HS.add("PAVI");HS.add("JULIET");
 		System.out.println("Result for HASHSET");
